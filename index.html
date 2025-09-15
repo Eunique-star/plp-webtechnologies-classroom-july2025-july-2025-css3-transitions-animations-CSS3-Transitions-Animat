@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web development Week 7</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>TRANSITION AND ANIMATION</h1>
+    </header>
+    <main>
+        <h2>PART 1</h2> <!-- This part demonstrates CSS transitions and animations. -->
+        <div>
+            <h3>Below is a button showing CSS transition on Hover</h3>
+            <button id="hoverBtn">Hover Over Me</button>
+        </div>
+
+        <div>
+            <h3>Below is a box showing CSS keyframe animation</h3>
+            <div class="movingBox"></div>
+        </div>
+
+        <h2>PART 2</h2> <!-- This part takes user input and provides feedback based on button clicks. -->
+        <label for="userName">What's your name?</label> <br>
+        <input type="text" id="userName" name="userName" placeholder="Enter your name">
+        <p class="question">How are you doing today?</p>
+        <button class="responseBtn" onclick="positive()">I'm doing great, thank you!</button>
+        <button class="responseBtn" onclick="negative()">I'm not doing well.</button>
+        <div id="responseBox"></div>
+
+        <h2>PART 3</h2> <!-- This part demonstrates CSS animations controlled via JavaScript. -->
+        <button id="animateCircleBtn">Rotate</button>
+        <div id="circle"></div>
+        <script src="script/script.js"></script>
+    </main>
+    <footer></footer>
+</body>
+</html>
